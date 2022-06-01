@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{55B4670E-156B-E142-D119-0B85329CA711}</ProjectGuid>
+    <ProjectGuid>{B7F61CFD-6C8B-C205-2E5B-629E330EB6F1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.TextMeshPro</AssemblyName>
@@ -714,11 +714,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{0A7AB454-CC7B-72E6-25AC-C494AA69DB6B}</Project>
+      <Project>{B4A2E984-BA26-7CDD-CBBE-E990086C254C}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{5A756F82-5BBD-8A58-4D1A-61B7DBE9B3DE}</Project>
+      <Project>{D929211F-60C4-3189-87A2-51BC6A4B9EE8}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2477AE40-35DF-77FA-4D29-D797C673A4E0}</ProjectGuid>
+    <ProjectGuid>{B66D1729-996A-5779-F8A8-30B553BF3997}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,8 +56,9 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\script\spawnPlataforma.cs" />
-    <Compile Include="Assets\script\player.cs" />
+    <Compile Include="Assets\Script\Player.cs" />
+    <Compile Include="Assets\Script\SpawnPlataforma.cs" />
+    <Compile Include="Assets\Script\plataforma.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -624,15 +625,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Timeline.Player.csproj">
-      <Project>{721E0AA6-FE24-1515-BB40-638C514F896D}</Project>
+      <Project>{56EF57CB-3511-7819-69C0-DFFB9236E59E}</Project>
       <Name>Unity.Timeline.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
-      <Project>{890244CD-CEDE-7EA5-1F20-AF57C07CD658}</Project>
+      <Project>{BF145503-142A-9DEF-693C-E1C9A9C69917}</Project>
       <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{B90E41B0-66F3-5CC8-7140-A00760915990}</Project>
+      <Project>{30392D37-6DBF-8CFC-6275-1CE48765F128}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>
